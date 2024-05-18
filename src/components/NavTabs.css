@@ -1,0 +1,59 @@
+/* src/components/NavTabs.css */
+.nav-tabs {
+    display: flex;
+    align-items: center;
+    background-color: darkslategrey;
+    color: white;
+}
+
+.logo-item {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.logo {
+    width: 90px;
+    height: auto;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.name {
+    font-size: 3em;
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* .name {
+    font-size: 3em;
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+} */
+
+/* .name {
+    font-size: 3em;
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-item .nav-link {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.nav-item .nav-link.active {
+    color: black;
+}
+
+.nav-item .nav-link:hover {
+    color: lightgray;
+}
