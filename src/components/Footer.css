@@ -1,0 +1,41 @@
+/* src/components/Footer.css */
+.footer {
+    background-color: darkslategrey;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer .contact {
+    margin-bottom: 20px;
+  }
+  
+  .footer .contact h2 {
+    margin-bottom: 10px;
+  }
+  
+  .footer .contact .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer .contact .social-icons a {
+    color: white;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+  }
+  
+  .footer .contact .social-icons a:hover {
+    color: #ff4500; /* Change this to your desired hover color */
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .footer i.fa-mountain {
+    margin-left: 5px;
+  }
+  
