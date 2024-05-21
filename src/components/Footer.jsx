@@ -19,7 +19,7 @@ export default function Footer() {
           </a>
         </div>
       </section>
-      <p>Made by Mallory <i className="fa-solid fa-mountain"></i></p>
+      <p className="made-by">Made by Mallory <i className="fa-solid fa-mountain"></i></p>
     </footer>
   );
 }

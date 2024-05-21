@@ -21,7 +21,7 @@
 
 .name {
     font-size: 3em;
-    font-family: "Parisienne", cursive;
+    /* font-family: "Parisienne", cursive; */
     font-weight: 400;
     font-style: normal;
 }
@@ -55,5 +55,5 @@
 }
 
 .nav-item .nav-link:hover {
-    color: lightgray;
+    color: lightslategray;
 }

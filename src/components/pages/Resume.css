@@ -1,3 +1,4 @@
+/* src/components/pages/Resume.css */
 .resume-container {
   display: flex;
   flex-direction: column;
@@ -5,8 +6,53 @@
   padding: 20px;
 }
 
-.pdf-viewer {
-  margin: 20px 0;
+.resume-container h2,
+.resume-container h3 {
+  text-align: left;
+  width: 100%;
+  border-bottom: 2px solid #000; /* Add underline */
+  padding-bottom: 5px; /* Add some padding for better appearance */
+}
+
+.work-experience,
+.education,
+.skills,
+.languages {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.job,
+.degree {
+  margin-bottom: 15px;
+}
+
+.job h4,
+.degree h4,
+.skill-category h4 {
+  margin: 10px 0 5px;
+}
+
+.job p,
+.degree p {
+  margin: 5px 0;
+}
+
+.job ul,
+.skill-category ul,
+.languages ul {
+  margin: 5px 0 15px 20px;
+  padding: 0;
+  list-style-type: disc;
+}
+
+ul {
+  font-size: 1rem; /* Ensure consistent font size for all lists */
+}
+
+.languages ul {
+  list-style-type: disc; /* Ensure consistency with other list styles */
 }
 
 .resume-container a {
@@ -18,14 +64,4 @@
 
 .resume-container a:hover {
   text-decoration: underline;
-}
-
-.react-pdf__Page__canvas {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Hide the text layer */
-.react-pdf__Page__textContent {
-  display: none !important;
 }

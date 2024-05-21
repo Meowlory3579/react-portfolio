@@ -27,7 +27,7 @@
   }
   
   .footer .contact .social-icons a:hover {
-    color: #ff4500; /* Change this to your desired hover color */
+    color: lightslategray; 
   }
   
   .footer p {
@@ -37,5 +37,9 @@
   
   .footer i.fa-mountain {
     margin-left: 5px;
+  }
+
+  .footer .made-by {
+    font-size: 15px;
   }
   
