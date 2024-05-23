@@ -1,4 +1,3 @@
-import React from 'react';
 import './Resume.css';
 
 export default function Resume() {
@@ -64,49 +63,51 @@ export default function Resume() {
       
       <div className="skills">
         <h3>Skills</h3>
-        <div className="skill-category">
-          <h4>Frontend Development</h4>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>React.js</li>
-          </ul>
-        </div>
-        <div className="skill-category">
-          <h4>Backend Development</h4>
-          <ul>
-            <li>API (RESTful, GraphQL)</li>
-            <li>SQL (MySQL, PostgreSQL)</li>
-            <li>MVC (Model-View-Controller)</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>MongoDB</li>
-          </ul>
-        </div>
-        <div className="skill-category">
-          <h4>Full Stack Development</h4>
-          <ul>
-            <li>MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
-          </ul>
-        </div>
-        <div className="skill-category">
-          <h4>Machine Learning & AI</h4>
-          <ul>
-            <li>IBM Watson</li>
-            <li>Machine Learning Algorithms</li>
-            <li>Neural Networks</li>
-            <li>NLP (Natural Language Processing)</li>
-            <li>Python</li>
-            <li>TensorFlow</li>
-            <li>Scikit-Learn</li>
-          </ul>
-        </div>
-        <div className="skill-category">
-          <h4>Other Technologies</h4>
-          <ul>
-            <li>MISMO XML</li>
-          </ul>
+        <div className="skills-columns">
+          <div className="skill-category">
+            <h4>Frontend Development</h4>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React.js</li>
+            </ul>
+          </div>
+          <div className="skill-category">
+            <h4>Backend Development</h4>
+            <ul>
+              <li>API (RESTful, GraphQL)</li>
+              <li>SQL (MySQL, PostgreSQL)</li>
+              <li>MVC (Model-View-Controller)</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MongoDB</li>
+            </ul>
+          </div>
+          <div className="skill-category">
+            <h4>Full Stack Development</h4>
+            <ul>
+              <li>MERN Stack (MongoDB, Express.js, React.js, Node.js)</li>
+            </ul>
+          </div>
+          <div className="skill-category">
+            <h4>Machine Learning & AI</h4>
+            <ul>
+              <li>IBM Watson</li>
+              <li>Machine Learning Algorithms</li>
+              <li>Neural Networks</li>
+              <li>NLP (Natural Language Processing)</li>
+              <li>Python</li>
+              <li>TensorFlow</li>
+              <li>Scikit-Learn</li>
+            </ul>
+          </div>
+          <div className="skill-category">
+            <h4>Other Technologies</h4>
+            <ul>
+              <li>MISMO XML</li>
+            </ul>
+          </div>
         </div>
       </div>
       
