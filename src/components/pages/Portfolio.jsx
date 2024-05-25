@@ -12,7 +12,7 @@ const projects = [
   {
     title: 'Time Tracker',
     image: '/assets/images/time-tracker.png',
-    deployedUrl: 'https://example.com/project2',
+    deployedUrl: 'https://best-time-tracker-666990ef70ad.herokuapp.com/',
     githubUrl: 'https://github.com/Meowlory3579/time-tracker',
     description: 'MVC | Handlebars | Sequelize | Express'
   },
