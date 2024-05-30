@@ -24,7 +24,7 @@ WHEN I am presented with the Resume section, THEN I see a link to a downloadable
 WHEN I view the footer, THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter).
 
 ## The following video demonstrates the application's appearance and functionality
-Coming Soon
+![Webpage titled "Mallory Howard" featuring "About Me", "Portfolio", "Resume", and "Contact" sections with relevant information for each section.](https://github.com/Meowlory3579/react-portfolio/blob/main/public/assets/images/mallory-howard.gif)
 
 ## URL for deployed application
-Coming Soon
+https://mallory-howard.netlify.app
