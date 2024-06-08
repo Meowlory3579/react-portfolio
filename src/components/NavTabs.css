@@ -26,20 +26,6 @@
     font-style: normal;
 }
 
-/* .name {
-    font-size: 3em;
-    font-family: "Tangerine", cursive;
-    font-weight: 700;
-    font-style: normal;
-} */
-
-/* .name {
-    font-size: 3em;
-    font-family: "Sacramento", cursive;
-    font-weight: 400;
-    font-style: normal;
-} */
-
 .nav-item {
     list-style: none;
 }
@@ -56,4 +42,31 @@
 
 .nav-item .nav-link:hover {
     color: lightslategray;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .nav-tabs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-item {
+        flex-basis: 100%;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .logo {
+        margin-right: 10px;
+    }
+
+    .name {
+        font-size: 2em;
+    }
+
+    .nav-item {
+        width: 100%;
+        text-align: center;
+    }
 }
