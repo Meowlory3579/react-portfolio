@@ -114,12 +114,13 @@ export default function Resume() {
       <div className="languages">
         <h3>Languages</h3>
         <ul>
-          <li>English (native proficiency)</li>
+          <li>English (native)</li>
           <li>French (limited working proficiency)</li>
+          <li>German (elementary proficiency)</li>
         </ul>
       </div>
 
-      <a href="/assets/files/MalloryHowardResume.pdf" target="_blank" rel="noopener noreferrer">
+      <a href="/assets/files/Resume.pdf" target="_blank" rel="noopener noreferrer">
         Download/View Full Resume
       </a>
     </div>

@@ -7,42 +7,42 @@ const projects = [
     image: '/assets/images/tech-blog-logo.png',
     deployedUrl: 'https://damp-woodland-55117-a1b32ed6e0d9.herokuapp.com/',
     githubUrl: 'https://github.com/Meowlory3579/tech-blog',
-    description: 'MVC | Handlebars | Sequelize | Express'
+    // description: 'MVC | Handlebars | Sequelize | Express'
   },
   {
     title: 'Time Tracker',
     image: '/assets/images/time-tracker.png',
     deployedUrl: 'https://best-time-tracker-666990ef70ad.herokuapp.com/',
     githubUrl: 'https://github.com/Meowlory3579/time-tracker',
-    description: 'MVC | Handlebars | Sequelize | Express'
+    // description: 'MVC | Handlebars | Sequelize | Express'
   },
   {
     title: 'Note Taker',
     image: '/assets/images/note-taker.webp',
     deployedUrl: 'https://note-taker-2fdz.onrender.com/',
     githubUrl: 'https://github.com/Meowlory3579/note-taker',
-    description: 'Express'
+    // description: 'Express'
   },
   {
     title: 'Weather Dashboard',
     image: '/assets/images/weather-dashboard.png',
     deployedUrl: 'https://meowlory3579.github.io/weather-dashboard/',
     githubUrl: 'https://github.com/Meowlory3579/weather-dashboard',
-    description: 'API | jQuery'
+    // description: 'API | jQuery'
   },
   {
     title: 'Work Day Scheduler',
     image: '/assets/images/work-day-scheduler.jpg',
     deployedUrl: 'https://meowlory3579.github.io/work-day-scheduler/',
     githubUrl: 'https://github.com/Meowlory3579/work-day-scheduler',
-    description: 'jQuery'
+    // description: 'jQuery'
   },
   {
     title: 'Timed Coding Quiz',
     image: '/assets/images/quiz.png',
     deployedUrl: 'https://meowlory3579.github.io/timed-code-quiz/',
     githubUrl: 'https://github.com/Meowlory3579/timed-code-quiz',
-    description: ''
+    // description: ''
   },
 ];
 
